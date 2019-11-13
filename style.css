@@ -1,0 +1,173 @@
+body{
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+h1{
+  color: #fff;
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+
+/******* HEADER *******/
+h1 .site_title{
+  font-size: 30px;
+}
+
+.main_menu li a{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main_menu li a{
+  margin-left: 30px;
+  font-size: 17px;
+}
+
+.bonhomme{
+  max-width: 255px;
+  margin-top: 94px;
+}
+
+.navbar-light .navbar-brand{
+  color: #fff !important;
+}
+
+.bg-light{
+  background-color: yellow !important;
+}
+
+.navbar{
+  background-color: #2C3D50;
+  height: 104px;
+}
+
+.presentation{
+  background-color: #42BC9C;
+  height: 679px;
+}
+
+.presentation_title{
+  margin-top: 35px;
+  font-size: 60px;
+}
+
+.star{
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 19px;
+  margin-bottom: 45px;
+}
+
+.star_1::after {
+    content: "";
+    border-bottom: 4px solid #fff;
+    border-radius:5px;
+    display: block;
+    margin-top: -17px;
+}
+
+.star_1 span {
+    background-color: #42BC9C;
+    padding: 10px;
+}
+
+.fa-star{
+    font-size: 32px;
+    padding: 0 5px;
+}
+
+.description_presentation{
+    font-size: 24px;
+}
+
+/******* PORTEFOLIO *******/
+
+h2{
+    color: #2C3D50;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    font-size: 45px !important;
+    margin-top: 80px !important;
+    margin-bottom: 13px !important;
+}
+
+.star_2 span {
+    background-color: #FFF;
+    padding: 10px;
+    color: #2C3D50;
+}
+
+.star_2::after {
+    content: "";
+    border-bottom: 4px solid #2C3D50;
+    border-radius:5px;
+    display: block;
+    margin-top: -17px;
+}
+
+.images_portfolio{
+  margin-left: 0 !important;
+}
+
+
+ .images_portfolio img{
+   max-width: 350px;
+   margin-bottom: 30px;
+   padding: 0px 10px;
+}
+
+
+/******* SECTION ABOUT ******/
+
+.about{
+  background-color: #42BC9C;
+  height: 610px;
+}
+
+.about h2{
+  color:#fff;
+  padding-top: 90px;
+}
+
+.row{
+  justify-content: center;
+}
+
+.about .row p{
+  text-align: left;
+  font-size: 20px;
+}
+
+.btn{
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  padding: 18px 34px !important;
+  font-size: 20px !important;
+  border-radius: 10px !important;
+  margin-top: 22px;
+}
+
+
+/******* SECTION CONTACT ME *********/
+
+.contact form .btn{
+  background-color: #41bc9c;
+  margin-top:10px;
+}
+
+.contact form{
+  text-align: left;
+  color:#2c3d4f;
+  font-size: 25px;
+}
+
+.centrage_btn{
+    width: 66.66%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
